@@ -25,10 +25,12 @@ mvn clean package
 
 5. Deploy the WAR File
 
-6. Copy the generated WAR file from the target directory to the webapps directory of your Tomcat installation. %CATALINA_HOME/webapps/your-war-file
+6. Copy the generated WAR file from the target directory to the webapps directory of your Tomcat installation. %CATALINA_HOME/webapps/<your-war-file>
 
 7. Start Tomcat Server. Navigate to the bin directory of your Tomcat installation and start the server:
 catalina.bat start   # On Windows
 
 8.Access the Application. Open your web browser and go to:
-http://localhost:8080/<your-war-file>
+http://localhost:8080/your-war-file
+
+
