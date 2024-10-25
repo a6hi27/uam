@@ -1,0 +1,8 @@
+com\example\servlets\ApprovalServlet.class
+com\example\servlets\LoginServlet.class
+com\example\models\Software.class
+com\example\Main.class
+com\example\models\PendingRequest.class
+com\example\servlets\SoftwareServlet.class
+com\example\servlets\SignUpServlet.class
+com\example\servlets\RequestServlet.class
