@@ -1,0 +1,44 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0" metadata-complete="true">
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>com.example.servlets.SignUpServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.example.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>com.example.servlets.RequestServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SoftwareServlet</servlet-name>
+        <servlet-class>com.example.servlets.SoftwareServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ApprovalServlet</servlet-name>
+        <servlet-class>com.example.servlets.ApprovalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/requestAccess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SoftwareServlet</servlet-name>
+        <url-pattern>/createSoftware</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ApprovalServlet</servlet-name>
+        <url-pattern>/pendingRequests</url-pattern>
+    </servlet-mapping>
+</web-app>
